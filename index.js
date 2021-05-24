@@ -20,6 +20,5 @@ function deepestChild() {
     grandNode = deepestNode;
     deepestNode = grandNode.children[0];
   }
-  }
   return deepestNode
 }
